@@ -18,6 +18,8 @@ Are acknowledgements OK? No.  Leave them for the final copy.
 
 ## Tips on Formatting
 
+Add '~' before '\cite' and '\ref'.
+
 The space after \eg, meaning ``for example'', should not be a **sentence-ending space**. So \eg is correct, {\em e.g.} is not.  The provided '\eg' macro takes care of this.
 
 When citing a multi-author paper, you may save space by using  et alia, shortened to ``\etal'' . However, use it only when there are three or more authors.
