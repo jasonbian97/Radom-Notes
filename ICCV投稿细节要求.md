@@ -1,8 +1,8 @@
 
 
-#Requirement for Writing SCI Paper and Submission
+# Requirement for Writing SCI Paper and Submission
 
-##Tips on Submission
+## Tips on Submission
 
 Dual submission 双重提交？？？
 
@@ -16,7 +16,7 @@ For conference submissions, the paper must stand on its own, and not require the
 
 Are acknowledgements OK? No.  Leave them for the final copy.
 
-##Tips on Formatting
+## Tips on Formatting
 
 The space after \eg, meaning ``for example'', should not be a **sentence-ending space**. So \eg is correct, {\em e.g.} is not.  The provided '\eg' macro takes care of this.
 
@@ -45,7 +45,7 @@ Resize fonts *in figures to match the font in the body text*, and choose line wi
 
 You must include your signed IEEE copyright release form when you submit your finished paper. We MUST have this form before your paper can be published in the proceedings.
 
-##How to Writing an Equation
+## How to Writing an Equation
 
 **Math is prose.**  End a displayed equation with a punctuation mark. Write  equations with signposts as to tell readers how they got which from what. Acquiring the habit of viewing an equation not as a grammatically irrelevant blob, but as a part of the text fully deserving of punctuation, can only improve the fluency and grace of one's expository mathematical prose.
 
