@@ -59,3 +59,11 @@ pip freeze > requirement.txt
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requrement.txt 
 ```
 
+如果要安装类似于下面的.whl文件
+
+```
+pip3 install https://download.pytorch.org/whl/cu100/torch-1.0.1.post2-cp37-cp37m-linux_x86_64.whl
+```
+
+在清华的镜像就很难找到，然而直接运行上面这个代码又很慢，与是我们就先可以把这个whl下载到本地，然后再使用pip 安装。至于下载工具，迅雷，浏览器都可以尝试，我这里使用peoxy down下载，非常的快！
+
