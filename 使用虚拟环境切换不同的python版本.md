@@ -66,4 +66,9 @@ pip3 install https://download.pytorch.org/whl/cu100/torch-1.0.1.post2-cp37-cp37m
 ```
 
 在清华的镜像就很难找到，然而直接运行上面这个代码又很慢，与是我们就先可以把这个whl下载到本地，然后再使用pip 安装。至于下载工具，迅雷，浏览器都可以尝试，我这里使用peoxy down下载，非常的快！
-
+ ---
+------------2019.4.5 更新----
+在新建的virtualenv下面使用opencv（cv2)不需要重新下载并编译，只需要将之前virtual env中的cv2.so文件拷贝到新的虚拟环境的目录下即可，如：
+```
+cp /home/jasonbian/.virtualenvs/virtual-py3/lib/python3.5/site-packages/cv2.so /home/jasonbian/.virtualenvs/virtual-tf-py37/lib/python3.7/site-packages/
+```
